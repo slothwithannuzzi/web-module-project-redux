@@ -35,7 +35,7 @@ const App = props => {
             </Route>
 
             <Route path="/movies">
-              <MovieList/>
+              <MovieList store = {props.store}/>
             </Route>
 
             <Route path="/">
